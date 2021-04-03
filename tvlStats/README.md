@@ -5,6 +5,12 @@
 This simple Javascript utility can be used to collect stats (Total Value Locked) from
 Coingecko API for many different DEX/defi systems
 
+Currently we have support for the following exchanges although it is trivial to add others:
+
+Pancakeswap
+Pancake-bunny
+Uniswap
+
 ## Requirements
 
 You'll probably need a lametric and you'll need to configure some lametric-y stuff..
