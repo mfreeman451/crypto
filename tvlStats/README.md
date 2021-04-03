@@ -13,6 +13,17 @@ You'll probably need a lametric and you'll need to configure some lametric-y stu
 
 Run the sample .sh out of crontab 
 
+### Sample shell script
+
+```shell
+#!/bin/sh
+
+export NODE_TLS_REJECT_UNAUTHORIZED="0" 
+node /home/leku/src/crypto/tvlStats/index.js
+```
+
+### Crontab
+
 ```shell
 */5 * * * * /home/leku/src/crypto/tvlStats/getTVL.sh
 ```
